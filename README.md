@@ -23,9 +23,7 @@ Python – Core fuzz testing engine, automation logic, and security test orchest
 
 Flask / FastAPI for API layer
 
-WebSocket / REST API for real-time test feedback
-
-Docker for containerized deployment
+HTTP methods
 
 
 
