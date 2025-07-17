@@ -11,15 +11,15 @@ This project implements a fuzz testing framework designed to automatically test 
 
 5.Enhances microservices resilience against real-world threats
 # Tech Stack
-Frontend:
+1.Frontend:
 
-🌐 HTML5, CSS3, JavaScript – Responsive and interactive UI for test control and results visualization
+HTML5, CSS3, JavaScript – Responsive and interactive UI for test control and results visualization
 
-Backend:
+2.Backend:
 
-🐍 Python – Core fuzz testing engine, automation logic, and security test orchestration
+Python – Core fuzz testing engine, automation logic, and security test orchestration
 
-Optional Tools:
+3.Optional Tools:
 
 Flask / FastAPI for API layer
 
