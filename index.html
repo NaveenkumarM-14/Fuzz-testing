@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial
+scale=1.0"> 
+<title>Security Orchestration & Fuzzing Operations</title> 
+<link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+<div class="app"> 
+<header> 
+<h1>Security Orchestration</h1> 
+<p>Manage fuzzing operations and analyze results seamlessly.</p> 
+</header> 
+<div class="input-container"> 
+<input 
+type="text" 
+id="fuzz-target" 
+placeholder="Enter target URL or IP" 
+/> 
+<button id="start-fuzz">Start Fuzzing</button> 
+</div> 
+<section class="fuzzing-operations"> 
+<h2>Current Fuzzing Operations</h2> 
+<div id="operation-list" class="operation-list"> 
+<p class="empty-state">No operations running. Start a fuzzing 
+task!    
+</p>
+</div>
+</section> 
+<section class="results-section"> 
+<h2>Fuzzing Results</h2> 
+<div id="results-list" class="results-list"> 
+<p class="empty-state">No results available yet!      
+</div> 
+</section> 
+<footer> 
+</p> 
+<p>&copy; 2024 Security Orchestration Tool. All rights 
+reserved.</p> 
+</footer> 
+</div> 
+<script src="app.js"></script> 
+</body> 
+</html> 
